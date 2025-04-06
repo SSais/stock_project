@@ -1,9 +1,10 @@
 from src.sample_test import func
 
-# This test is to confirm the app work
+
+# This test is to confirm that pytest works
 def test_answer():
     # Arrange
-    test_input = 3
+    test_input = 4
     expected_output = 5
     # Act
     actual_output = func(test_input)
