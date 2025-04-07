@@ -1,6 +1,7 @@
-import requests
+import requests 
 import json  # Need to check if this is required
 import os
+import pandas as pd
 
 from dotenv import load_dotenv
 from requests.exceptions import RequestException, Timeout
@@ -30,4 +31,6 @@ def get_request(url: str):
 # Save the API request in a variable
 # data = get_request(url)
 
+
+df = pd.DataFrame(data)
 # Test to handle and check status
