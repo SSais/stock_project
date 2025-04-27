@@ -1,6 +1,6 @@
 import pytest
 
-from src.app import get_request
+from src.extract import get_request
 from unittest.mock import patch
 from requests.exceptions import Timeout, RequestException
 
